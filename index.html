@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mikeyks - Delicious Cakes</title>
+
+            <link rel="stylesheet" href="styles.css">
+           <link
+                rel="stylesheet"
+                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"      
+
+            />
+
+            <!-- FONT PORPUSES-->
+            <script src="https://cdn.tailwindcss.com"></script>
+            <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/adlery-pro">
+            <style>
+                .font-adlery {
+                    font-family: 'Adlery Pro', sans-serif;
+                }
+            </style>
+        </head>
+
+        <body>
+            <!-- HEADER AREA -->
+            <nav class="HeaderBody">
+                <img src="img/mainlogo.jpg" class="headerlogo">
+                <div class="navbuttons">
+                    <a href="#herosec" class="navbtn">Home</a>
+                    <a href="#productsec" class="navbtn">Products</a>
+                    <a href="#aboutus" class="navbtn">About Us</a>
+                    <a href="#Ordernow" class="navbtn">Order Now</a>    
+                    <a href="#contactus" class="navbtn">Contact Us</a>
+
+                </div>
+            </nav>
+
+
+            <!-- HERO SECTION AREA -->
+            <section class="herosection" id="herosec">
+                <h1 class="font-adlery text-[6vw] leading-[7vw] text-[#494d2d]">
+                    Delicious cake <br class="hidden sm:block"> for everyone
+                </h1>
+
+                <p class="heroparagraph">
+                    Make your celebration extra special with Mikeyks.
+                </p>
+
+                <button class="explorebtn font-adlery">
+                    EXPLORE MENU
+                </button>
+
+                <img class="heroimg">
+            </section>
+
+
+            <!-- PRODUCT SECTION AREA -->
+            <section class="productsection" id="productsec">
+
+                <h1 class= "font-adlery text-[4vw] leading-[6 vw] text-[#494d2d] ">
+                    Our Exclusive Cakes
+                </h1>
+
+                <div class="displayarea">
+                    <p class="Arrows"><</p>
+
+                    <div class="itemboxes">
+                        <img src="img/cake1.jpg" class="itemimg">
+                        <p class="itemname">Chocolate</p>
+                        <p class="itemprice">₱  300</p>
+                        <p class="itemparagraph">Land behold it created good saw after she'd our set.</p>
+                        <butto class="itembutton">
+                             Order Now
+                        </button>
+                    </div>
+
+                    <div class="itemboxes">
+                        <img src="img/cake3.PNG" class="itemimg">
+                        <p class="itemname">Chocolate</p>
+                        <p class="itemprice">₱  300</p>
+                        <p class="itemparagraph">Land behold it created good saw after she'd our set.</p>
+                        <butto class="itembutton">
+                         Order Now
+                        </button>
+                    </div>
+
+                    <div class="itemboxes">
+                        <img src="img/cake4.PNG" class="itemimg">
+                        <p class="itemname">Chocolate</p>
+                        <p class="itemprice">₱  300</p>
+                        <p class="itemparagraph">Land behold it created good saw after she'd our set.</p>
+                        <butto class="itembutton">
+                             Order Now
+                        </button>
+                    </div>
+
+                    <div class="itemboxes">
+                        <img src="img/cake1.jpg" class="itemimg">
+                        <p class="itemname">Chocolate</p>
+                        <p class="itemprice">₱  300</p>
+                        <p class="itemparagraph">Land behold it created good saw after she'd our set.</p>
+                        <butto class="itembutton">
+                            Order Now
+                        </button>
+                    </div>
+
+                    <p class="Arrows">></p>
+                </div>
+            </section>
+
+
+<section class="aboutussection" id="aboutus">
+  <div class="aboutuscontainer">
+    <div class="aboutusimgwrapper">
+      <img src="img/cake5.jpg" class="aboutusimg back" alt="Cake background">
+      <img src="img/cake5.jpg" class="aboutusimg front" alt="Cake front">
+    </div>
+    <div class="aboutustext">
+      <h1 class="font-adlery text-[4vw] text-[#494d2d] mb-[1vw]">About Us</h1>
+      <p class="text-[1.1vw] text-[#121212] leading-relaxed">
+        We love making cakes that bring smiles to every celebration. Whether it's a birthday, wedding, or a simple treat, we put love and care into every slice. Our cakes are freshly baked using quality ingredients to make sure they taste as good as they look. At Mikeyks, we bake happiness in every slice! Whether it’s for birthdays, weddings, or just a sweet treat, our cakes are made fresh with love and the best ingredients. Soft, tasty, and beautifully designed — we’ve got a cake for every occasion!
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- ORDER NOW SECTION -->
+<section class="order-section" id="Ordernow">
+  <div class="order-left">
+    <img src="img/how-to-order.png.png" alt="How to Order Steps" class="order-image">
+  </div>
+
+  <form class="order-form">
+    <div class="form-group">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="e.g., 09123456789" required>
+    </div>
+
+    <div class="form-group">
+      <label for="cake">Select Cake</label>
+      <select id="cake" name="cake" required>
+        <option value="">-- Choose a cake --</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="vanilla">Vanilla</option>
+        <option value="redvelvet">Red Velvet</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="quantity">Quantity</label>
+      <input type="number" id="quantity" name="quantity" min="1" placeholder="1" required>
+    </div>
+
+    <div class="form-group">
+      <label for="date">Pickup Date</label>
+      <input type="date" id="date" name="date" required>
+    </div>
+
+    <button type="submit" class="submit-btn">Place Order</button>
+  </form>
+</section>
+
+
+ <section class="contactpicsection" id="contactus">
+  <div class="contact">
+    <img src="img/contact.png" class="contact-image">
+  </div>
+</section>
+
+    
+  <!-- CONTACT US SECTION -->
+  <footer class="contactsection" id="contactus">
+      <div class="contactcontainer">
+        
+        <div class="contact-column">
+          <h2 class="brandlogo">🍰 Mikeyks</h2>
+          <p>
+            Land behold it created good saw after she'd our set living. Signs midst dominion creepeth morning.
+          </p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+    
+        <div class="contact-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutus">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#contactus">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-column">
+          <h3>Cakes</h3>
+          <ul>
+            <li>Blackforest</li>
+            <li>Bodhubon</li>
+            <li>Rongdhonu</li>
+            <li>Meghrong</li>
+          </ul>
+        </div>
+    
+        <div class="contact-column">
+          <h3>Contact Us</h3>
+          <p>Proper, Mambayaan Balingasag Mis.Or</p>
+          <p class="phone">09759420944</p>
+        </div>
+    
+      </div>
+    </footer>
+
+            <script src="script.js"></script>
+        </body>
+
+    </html>
